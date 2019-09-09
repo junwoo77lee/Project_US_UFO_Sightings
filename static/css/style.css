@@ -74,13 +74,37 @@ select {
 }
 
 #table-area th {
-  text-align: center;
+  text-align: left;
 }
 
 #table-area th:first-child,
 #table-area th:nth-child(2),
 #table-area th:nth-child(6) {
-  min-width: 70px;
+  min-width: 100%;
+}
+
+#table-area thead tbody {
+    display: block;
+    min-height: 50px;
+    overflow-y: auto;
+}
+
+#ufo-table {
+  overflow-y: auto;
+  height: 400px;
+  line-height: 10px;
+}
+
+#ufo-table::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+#ufo-table::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+
+#ufo-table::-webkit-scrollbar:horizontal {
+  width: 11px;
 }
 
 .loader {
