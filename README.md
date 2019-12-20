@@ -1,4 +1,5 @@
-# us_ufo_sightings
-* Bootstrap HTML/CSS
-* Javascript and d3.js for DOM
-* plotly.js for drawing a map plot
+# EDA for US UFO-Sightings dataset, visualization, and web-page creation
+
+* Bootstrap4 (HTML5/CSS3)
+* Javascript and d3.js for DOM control
+* Plotly.js for visualization
